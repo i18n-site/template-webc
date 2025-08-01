@@ -1,0 +1,20 @@
+{
+	"name": "@3-/template-webc",
+	"version": "0.1.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/i18n-site/template-webc.git"
+	},
+	"homepage": "https://github.com/i18n-site/template-webc",
+	"author": "i18n.site@gmail.com",
+	"license": "MulanPubL-2.0",
+	"exports": {
+		"./*": "./*"
+	},
+	"files": [
+		"*"
+	],
+	"devDependencies": {},
+	"scripts": {},
+	"type": "module"
+}
