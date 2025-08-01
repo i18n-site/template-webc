@@ -1,5 +1,5 @@
-import Conf from "@3-/webc"
 import merge from "@3-/merge"
+import Conf from "@3-/webc"
 import { defineConfig } from "vite"
 
 const conf = await Conf(import.meta.dirname)
