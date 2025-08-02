@@ -1,0 +1,15 @@
+html,
+body {
+	font:
+		400 18px / 1.875 s,
+		sans-serif;
+	font-variation-settings: "wght" 400;
+	text-rendering: geometricPrecision;
+	margin: 0;
+	padding: 0;
+	height: 100dvh;
+	min-width: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}

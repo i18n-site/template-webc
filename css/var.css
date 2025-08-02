@@ -1,0 +1,13 @@
+:root {
+	/* button background */
+	--btnBg: linear-gradient(45deg, #f50 0, #e63 40%, #900 100%);
+	/* hover filter */
+	--hF: invert(42%) sepia(1) saturate(47);
+	--hC: #f40;
+	/* focus color */
+	--fC: #27d;
+	/* focus filter */
+	--fF: brightness(0.9) contrast(1.1) hue-rotate(200deg);
+	/* checked color */
+	--cC: #390;
+}
