@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(content="width=device-width,initial-scale=1" name="viewport")
+    for css_url in CSS_URL_LI
+      link(href=css_url rel="stylesheet")
+    script(type="importmap") !{IMPORT_MAP}
+    for js_url in JS_URL_LI
+      script(src=js_url)
+    if NODE_ENV == "development"
+      script.
+        new VConsole();
+    script.
+      const API="#{API}"
+    block head
+  body
+    block body

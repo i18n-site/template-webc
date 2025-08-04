@@ -1,0 +1,9 @@
+{
+	"type": "module",
+	"dependencies": {},
+	"devDependencies": {
+		"vite": "^7.0.6",
+		"@3-/merge": "^0.1.2",
+		"@3-/webc": "^0.1.4"
+	}
+}
